@@ -8,5 +8,5 @@
     "declaration": true,
     "outDir": "lib"
   },
-  "exclude": ["generateExports.ts"]
+  "exclude": ["generateExports.ts", "node_modules", "lib"]
 }
