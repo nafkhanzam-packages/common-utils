@@ -1,0 +1,33 @@
+{
+  "name": "@nafkhanzam/common-utils",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "private": false,
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/nafkhanzam"
+  },
+  "repository": "https://github.com/nafkhanzam/common-utils.git",
+  "author": "nafkhanzam <nafkhanalzamzami@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "generate": "ts-node generateExports"
+  },
+  "dependencies": {
+    "local-date": "^2.0.6",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "uuid": "^8.3.2",
+    "zod": "^1.11.11"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.167",
+    "@types/moment": "^2.13.0",
+    "@types/uuid": "^8.3.0",
+    "export-generator": "^1.2.0"
+  }
+}
