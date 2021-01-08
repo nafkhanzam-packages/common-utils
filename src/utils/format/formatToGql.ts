@@ -16,9 +16,16 @@ const toDateTime = (date: DateInput) => {
   return `${toDate(date)} ${toHMS(date)}`;
 };
 
+const toErrorStatus = (err: any): string | undefined => {
+  try {
+    return err.response.errors[0].message;
+  } catch (error) {}
+};
+
 export const formatToGql = {
   toDateTime,
   toDate,
   toHMS,
   toHM,
+  toErrorStatus,
 };
