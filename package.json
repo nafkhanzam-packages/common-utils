@@ -14,11 +14,12 @@
   "author": "nafkhanzam <nafkhanalzamzami@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "prepublish": "yarn build",
+    "prepublish": "yarn generate && yarn build",
     "build": "tsc",
     "generate": "ts-node generateExports"
   },
   "dependencies": {
+    "dotenv-flow": "^3.2.0",
     "local-date": "^2.0.6",
     "lodash": "^4.17.20",
     "moment": "^2.29.1",
@@ -26,6 +27,7 @@
     "zod": "^1.11.11"
   },
   "devDependencies": {
+    "@types/dotenv-flow": "^3.1.0",
     "@types/lodash": "^4.14.167",
     "@types/moment": "^2.13.0",
     "@types/uuid": "^8.3.0",

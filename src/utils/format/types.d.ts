@@ -9,3 +9,5 @@ const getMoment = (
     return moment(date);
   }
 };
+
+export {};
