@@ -1,3 +1,5 @@
+import {DateInput, getMoment} from "./utils";
+
 const toDate = (date: DateInput) => {
   return getMoment(date).format("DD M YYYY");
 };

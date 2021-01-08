@@ -1,8 +1,4 @@
-const format = {
-  datetime: "YYYY-MM-DD HH:mm[:ss]",
-  date: "YYYY-MM-DD",
-  time: "HH:mm[:ss]",
-};
+import {DateInput, format, getMoment} from "./utils";
 
 const toDate = (date: DateInput) => {
   return getMoment(date).format(format.date);
