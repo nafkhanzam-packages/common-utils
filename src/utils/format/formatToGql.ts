@@ -18,7 +18,7 @@ const toDateTime = (date: DateInput) => {
 
 const toErrorStatus = (err: any): string | undefined => {
   try {
-    return err.response.errors[0].message;
+    return err.response.errors[0].status;
   } catch (error) {}
 };
 
