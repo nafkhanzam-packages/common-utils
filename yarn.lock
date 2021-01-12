@@ -48,6 +48,11 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.66.tgz#dd035d409df322acc83dff62a602f12a5783bbb3"
   integrity sha512-tktOkFUA4kXx2hhhrB8bIFb5TbwzS4uOhKEmwiD+NoiL0qtP2OQ9mFldbgD4dV1djrlBYP6eBuQZiWjuHUpqFw==
 
+"@types/phone@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@types/phone/-/phone-2.4.0.tgz#8c02c0513884136fef5948b7781b76e6c7c44997"
+  integrity sha512-oClvNb2ATpf3fmDMuJOzRBRWjUwssc+cTfMPTXf5YmeSnveadSMmuwd3CjpJtU24Mg3VvpA9uNWwh5f75dgCLg==
+
 "@types/underscore@^1.8.6":
   version "1.10.24"
   resolved "https://registry.yarnpkg.com/@types/underscore/-/underscore-1.10.24.tgz#dede004deed3b3f99c4db0bdb9ee21cae25befdd"
@@ -135,6 +140,11 @@ inherits@2:
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
+js-base64@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-3.6.0.tgz#773e1de628f4f298d65a7e9842c50244751f5756"
+  integrity sha512-wVdUBYQeY2gY73RIlPrysvpYx+2vheGo8Y1SNQv/BzHToWpAZzJU7Z6uheKMAe+GLSBig5/Ps2nxg/8tRB73xg==
+
 local-date@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/local-date/-/local-date-2.0.6.tgz#6be829e6dbecc1ff4c848475f225c7838ed28755"
@@ -170,6 +180,11 @@ path-is-absolute@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
   integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
+
+phone@^2.4.19:
+  version "2.4.19"
+  resolved "https://registry.yarnpkg.com/phone/-/phone-2.4.19.tgz#ff356a3b186ae971d27718bd76da274248c9f001"
+  integrity sha512-V+nzB6MPUSO5qkd2iJwLAa/S4X7wgD/NXhu/b7EZexssfGhtBnY0wdh/WOyA4qCv8uaSuJwYpLx0i9WK/wQKSw==
 
 typescript@^2.7.0-dev.20180105:
   version "2.9.2"

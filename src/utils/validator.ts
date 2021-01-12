@@ -1,5 +1,6 @@
 import * as zod from "zod";
 import {ZodError} from "zod";
+import phone from "phone";
 
 const validateSafe = <T>(
   validator: zod.ZodType<T, any>,
@@ -30,6 +31,9 @@ export const validatorUtils = {
     }
   },
   validateSafe,
+  validatePhone: (value: string): boolean => {
+    return !!phone(value).length;
+  },
 };
 
 export {zod};
