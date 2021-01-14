@@ -1,6 +1,6 @@
 {
   "name": "@nafkhanzam/common-utils",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "private": false,
@@ -19,7 +19,9 @@
     "generate": "ts-node generateExports"
   },
   "dependencies": {
+    "big-roman": "^1.0.1",
     "dotenv-flow": "^3.2.0",
+    "get-age": "^1.0.1",
     "js-base64": "^3.6.0",
     "local-date": "^2.0.6",
     "lodash": "^4.17.20",
