@@ -22,10 +22,25 @@ const toErrorStatus = (err: any): string | undefined => {
   } catch (error) {}
 };
 
+const toErrorMessage = (err: any): string | undefined => {
+  try {
+    return err.response.errors[0].message;
+  } catch (error) {}
+};
+
+const toError = (
+  err: any,
+): {status: string | undefined; message: string | undefined} => ({
+  status: toErrorStatus(err),
+  message: toErrorMessage(err),
+});
+
 export const formatToGql = {
   toDateTime,
   toDate,
   toHMS,
   toHM,
   toErrorStatus,
+  toErrorMessage,
+  toError,
 };
