@@ -18,4 +18,6 @@ export const dateUtils = {
     var ageDate = new Date(ageDifMs); // miliseconds from epoch
     return Math.abs(ageDate.getUTCFullYear() - 1970);
   },
+  getRemainingSeconds: (endDateTime: Date) =>
+    moment.duration(moment(endDateTime).diff(moment())).asSeconds(),
 };

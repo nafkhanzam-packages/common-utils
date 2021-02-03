@@ -24,6 +24,10 @@ const toRpString = (value: number) => {
   return `Rp ${toMoneyString(value)}`;
 };
 
+const toRpPerUnitString = (value: number, unit: string) => {
+  return `${toRpString(value)} / ${unit}`;
+};
+
 const toPhoneString = (phone: string) => {
   const prefix = "+62";
   if (phone.startsWith("0")) {
@@ -42,4 +46,5 @@ export const formatToString = {
   toMoneyString,
   toRpString,
   toPhoneString,
+  toRpPerUnitString,
 };
