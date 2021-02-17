@@ -1,6 +1,6 @@
 {
   "name": "@nafkhanzam/common-utils",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "private": false,
@@ -28,6 +28,7 @@
     "local-date": "^2.0.6",
     "lodash": "^4.17.20",
     "moment": "^2.29.1",
+    "object-to-formdata": "^4.1.0",
     "phone": "^2.4.19",
     "uuid": "^8.3.2",
     "zod": "^1.11.11"
