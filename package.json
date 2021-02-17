@@ -1,6 +1,6 @@
 {
   "name": "@nafkhanzam/common-utils",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "private": false,
@@ -24,6 +24,7 @@
     "big-roman": "^1.0.1",
     "cookie": "^0.4.1",
     "dotenv-flow": "^3.2.0",
+    "form-data": "^4.0.0",
     "get-age": "^1.0.1",
     "js-base64": "^3.6.0",
     "local-date": "^2.0.6",
