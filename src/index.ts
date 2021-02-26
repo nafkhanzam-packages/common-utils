@@ -1,3 +1,4 @@
+export * from "./utils/api-client";
 export * from "./utils/date";
 export * from "./utils/error";
 export * from "./utils/format/formats";
