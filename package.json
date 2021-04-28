@@ -1,6 +1,6 @@
 {
   "name": "@nafkhanzam/common-utils",
-  "version": "0.0.39",
+  "version": "0.0.40",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "private": false,
@@ -33,7 +33,7 @@
     "object-to-formdata": "^4.1.0",
     "phone": "^2.4.19",
     "uuid": "^8.3.2",
-    "zod": "^1.11.11"
+    "zod": "^3.0.0-alpha.39"
   },
   "devDependencies": {
     "@types/cookie": "^0.4.0",
