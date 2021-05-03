@@ -300,7 +300,7 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
-zod@^1.11.11:
-  version "1.11.11"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-1.11.11.tgz#1cc937e0b4ce08693de01b5bcd7c4d1a37d83993"
-  integrity sha512-q1YeBpu+c7eUX5fDFMyfP97sD74TUQ+UN8va/nvbxnArr5euYsNO6fjiY0SdDkHKNZ+xBR2ZQToaeLgJ6fsB2A==
+zod@^3.0.0-alpha.39:
+  version "3.0.0-alpha.39"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.0.0-alpha.39.tgz#a847c716e801e7dd8fe803bc1e11605c5a8f7f82"
+  integrity sha512-ZnqbAQ5pS5KpHiGasEMKe6PHFNsCOFvOU4nq91ENf0I9cz/pjNPxskreSWV0IPJOGDrIZLMOYOk4+IPOM2P9Tw==
