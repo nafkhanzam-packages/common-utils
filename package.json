@@ -1,15 +1,12 @@
 {
   "name": "@nafkhanzam/common-utils",
-  "version": "0.0.40",
+  "version": "0.0.41",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "private": false,
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/nafkhanzam"
-  },
   "repository": "https://github.com/nafkhanzam/common-utils.git",
   "author": "nafkhanzam <nafkhanalzamzami@gmail.com>",
   "license": "MIT",
