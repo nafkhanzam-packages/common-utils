@@ -1,6 +1,6 @@
 {
   "name": "@nafkhanzam/common-utils",
-  "version": "0.0.42",
+  "version": "0.0.43",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "private": false,
@@ -14,7 +14,7 @@
     "prepublish": "yarn generate && yarn build",
     "build": "tsc",
     "generate": "ts-node generateExports",
-    "pub": "yarn version --patch && npm pub"
+    "patch": "yarn version --patch"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -31,6 +31,9 @@
     "phone": "^2.4.21",
     "uuid": "^8.3.2",
     "zod": "^3.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "4.2.4"
   },
   "devDependencies": {
     "@types/cookie": "^0.4.0",
