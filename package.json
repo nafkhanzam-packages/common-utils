@@ -12,7 +12,7 @@
   "license": "MIT",
   "scripts": {
     "prepublish": "yarn generate && yarn build",
-    "build": "tsc",
+    "build": "tsc && cp object.d.ts lib",
     "generate": "ts-node generateExports",
     "patch": "yarn version --patch"
   },
@@ -31,9 +31,6 @@
     "phone": "^2.4.21",
     "uuid": "^8.3.2",
     "zod": "^3.2.0"
-  },
-  "peerDependencies": {
-    "typescript": "4.2.4"
   },
   "devDependencies": {
     "@types/cookie": "^0.4.0",
