@@ -1,4 +1,4 @@
-import {DateInput, getMoment} from "./utils";
+import { DateInput, getMoment } from "./utils";
 
 const toDate = (date: DateInput) => {
   return getMoment(date).format("DD MMMM YYYY");
@@ -24,6 +24,11 @@ const toRpString = (value: number) => {
   return `Rp ${toMoneyString(value)}`;
 };
 
+const parseRpString = (str: string): number | null => {
+  const res = Number(str.replace(/^Rp /, "").replace(/\./g, ""));
+  return isNaN(res) ? null : res;
+};
+
 const toRpPerUnitString = (value: number, unit: string) => {
   return `${toRpString(value)} / ${unit}`;
 };
@@ -45,6 +50,7 @@ export const formatToString = {
   toDateTime,
   toMoneyString,
   toRpString,
+  parseRpString,
   toPhoneString,
   toRpPerUnitString,
 };

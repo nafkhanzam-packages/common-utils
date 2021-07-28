@@ -1,14 +1,14 @@
 import * as zod from "zod";
-import {ZodError} from "zod";
+import { ZodError } from "zod";
 import phone from "phone";
 
-const validateSafe = <T>(
-  validator: zod.ZodType<T, any>,
+const validateSafe = <A, B, C>(
+  validator: zod.ZodType<A, B, C>,
   data: unknown,
 ):
   | {
       success: true;
-      data: T;
+      data: A;
     }
   | {
       success: false;
@@ -18,12 +18,12 @@ const validateSafe = <T>(
 };
 
 export const validatorUtils = {
-  validate: <T>(
-    validator: zod.ZodType<T, any>,
+  validate: <A, B, C>(
+    validator: zod.ZodType<A, B, C>,
     data: unknown,
     errorMessage?: string,
-  ): T => {
-    const result = validateSafe(validator, data);
+  ): A => {
+    const result = validateSafe<A, B, C>(validator, data);
     if (result.success) {
       return result.data;
     } else {
@@ -32,8 +32,8 @@ export const validatorUtils = {
   },
   validateSafe,
   validatePhone: (value: string): boolean => {
-    return !!phone(value).length;
+    return !!phone(value).isValid;
   },
 };
 
-export {zod};
+export { zod };
